@@ -1,9 +1,18 @@
 # 🤖 Бот отзывов о преподавателях
 
+[![tests](https://github.com/jeakmane/education-reviews-bot/actions/workflows/tests.yml/badge.svg)](https://github.com/jeakmane/education-reviews-bot/actions/workflows/tests.yml)
+![Python](https://img.shields.io/badge/python-3.11%2B-blue)
+![aiogram](https://img.shields.io/badge/aiogram-3.x-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 Telegram-бот, где студенты ищут преподавателей и дисциплины и оставляют отзывы:
 как проходит экзамен, насколько лоялен препод, насколько понятно объясняет.
 Отзывы автоматически фильтруются от мата и спама, сомнительные — уходят
 модератору на ручную проверку.
+
+Telegram bot for student reviews of university teachers: search by teacher or
+course, rate loyalty/exam difficulty/clarity, automatic profanity & spam
+filtering with a manual moderation queue. Built with aiogram 3 and SQLite.
 
 ## Стек
 
